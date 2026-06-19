@@ -104,7 +104,89 @@ nav a:hover{
     width:55%;
 
 }
+/* ================= TIMELINE ================= */
 
+.timeline{
+
+    display:flex;
+    align-items:center;
+
+    margin-top:45px;
+
+    justify-content:flex-start;
+
+}
+
+.step{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.circle{
+
+    width:52px;
+    height:52px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:700;
+    font-size:18px;
+
+    background:rgba(255,255,255,.06);
+
+    border:2px solid rgba(255,255,255,.12);
+
+    transition:.3s;
+
+}
+
+.step.active .circle{
+
+    background:linear-gradient(135deg,#cf2d68,#8c1642);
+
+    border:none;
+
+    box-shadow:
+        0 0 25px rgba(207,45,104,.45);
+
+}
+
+.step span{
+
+    margin-top:14px;
+
+    font-size:13px;
+
+    color:#ead7dd;
+
+    letter-spacing:1px;
+
+    white-space:nowrap;
+
+}
+
+.line{
+
+    width:90px;
+    height:2px;
+
+    margin:0 18px 28px 18px;
+
+    background:linear-gradient(
+        to right,
+        rgba(255,255,255,.05),
+        rgba(255,255,255,.25),
+        rgba(255,255,255,.05)
+    );
+
+}
 .tag{
 
     display:inline-block;
@@ -189,11 +271,36 @@ button{
 
 .primary{
 
-    color:white;
+    display:inline-flex;
 
-    background:linear-gradient(135deg,#a51f50,#7a1739);
+    align-items:center;
+    justify-content:center;
 
-    box-shadow:0 15px 35px rgba(165,31,80,.35);
+    text-decoration:none;
+
+    color:#fff;
+
+    padding:18px 34px;
+
+    margin-top:40px;
+
+    border-radius:16px;
+
+    background:linear-gradient(135deg,#c81f63,#8a1741);
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 15px 35px rgba(200,31,99,.35);
+
+}
+
+.primary:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 20px 45px rgba(200,31,99,.5);
 
 }
 
@@ -285,7 +392,7 @@ button{
 
 .journey-card h3{
 
-    font-size:75px;
+    font-size:50px;
 
     font-weight:700;
 
@@ -487,7 +594,25 @@ button{
     }
 
 }
+ .final{
 
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:80px auto 100px;
+
+}
+
+.final .journey-card{
+
+    margin:0 auto;
+
+}
 /* ================= RESPONSIVO ================= */
 
 @media(max-width:1000px){
@@ -554,5 +679,6 @@ button{
         max-width:380px;
 
     }
+   
 
 }
