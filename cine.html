@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CineTuxo 🎬</title>
+
+    <link rel="stylesheet" href="cine.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        🎬 CineTuxo
+
+    </div>
+
+    <nav>
+
+        <a href="#filmes">Em Cartaz</a>
+
+        <a href="#jacas">Jaca's Store</a>
+
+        <a href="#pedido">Minha Sessão</a>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h1>
+
+        Bem-vinda ao <span>CineTuxo</span>
+
+    </h1>
+
+    <p>
+
+        Transformando coincidências em amor desde 2025.
+
+    </p>
+
+    <div class="hero-info">
+
+        <div>
+
+            📅 <strong>Sábado</strong>
+
+        </div>
+
+        <div>
+
+            🕗 <strong>20:00</strong>
+
+        </div>
+
+        <div>
+
+            📍 <strong>Unidade Residencial - Casa de Tutu</strong>
+
+        </div>
+
+    </div>
+
+    <a href="#filmes" class="botao">
+
+         Escolher Filmes
+
+    </a>
+
+</section>
+
+
+
+<section id="filmes">
+
+    <div class="titulo">
+
+        <h2>
+
+             Em Cartaz
+
+        </h2>
+
+        <p>
+
+            Escolha um anime e um filme para nossa sessão.
+
+        </p>
+
+    </div>
+
+    <div class="cards-filmes">
+
+        <!-- KIKI -->
+<div class="filme anime" data-nome="O Serviço de Entregas da Kiki">
+
+    <img src="img/kiki.jpg">
+
+    <div class="filme-info">
+
+        <h3>O Serviço de Entregas da Kiki</h3>
+
+        <div class="estrelas">🍿🍿🍿🍿🍿</div>
+
+        <p>
+            Uma jovem bruxa inicia sua vida independente em uma cidade desconhecida.
+        </p>
+
+        <button
+    class="escolher anime-btn"
+    data-tipo="anime"
+    data-nome="O Serviço de Entregas da Kiki">
+    Escolher
+</button>
+
+    </div>
+
+</div>
+
+<!-- TOTORO -->
+
+<div class="filme anime" data-nome="Meu Amigo Totoro">
+
+    <img src="img/totoro.png">
+
+    <div class="filme-info">
+
+        <h3>Meu Amigo Totoro</h3>
+
+        <div class="estrelas">🍿🍿🍿🍿🍿</div>
+
+        <p>
+            Uma aventura encantadora sobre infância, natureza e imaginação.
+        </p>
+
+        <button
+    class="escolher anime-btn"
+    data-tipo="anime"
+    data-nome="Meu Amigo Totoro">
+    Escolher
+</button>
+
+    </div>
+
+</div>
+
+<!-- QUESTÃO DE TEMPO -->
+
+<div class="filme filme-real" data-nome="Questão de Tempo">
+
+    <img src="img/questao-tempo.jpg">
+
+    <div class="filme-info">
+
+        <h3>Questão de Tempo</h3>
+
+        <div class="estrelas">🍿🍿🍿🍿🍿</div>
+
+        <p>
+            Romance emocionante sobre aproveitar cada momento ao lado de quem amamos.
+        </p>
+
+        <button
+    class="escolher filme-btn"
+    data-tipo="filme"
+    data-nome="Questão de Tempo">
+    Escolher
+</button>
+
+    </div>
+
+</div>
+
+<!-- NICE GUYS -->
+
+<div class="filme filme-real" data-nome="Dois Caras Legais
+">
+
+    <img src="img/nice-guys.png">
+
+    <div class="filme-info">
+
+        <h3>The Nice Guys</h3>
+
+        <div class="estrelas">🍿🍿🍿🍿🍿</div>
+
+        <p>
+            Uma comédia policial divertida para dar boas risadas juntos.
+        </p>
+
+        <button
+    class="escolher filme-btn"
+    data-tipo="filme"
+    data-nome="The Nice Guys">
+    Escolher
+</button>
+
+    </div>
+
+</div>
+
+
+
+    </div>
+
+</section>
+
+
+
+<section id="jacas">
+
+    <section id="jacas">
+
+    <div class="titulo">
+
+        <h2>Jaca's Store</h2>
+
+        <p>
+            Tudo será comprado utilizando <strong>PichuCoins</strong>.
+        </p>
+
+    </div>
+
+    <div class="saldo">
+
+        <span> Saldo disponível</span>
+
+<h2><span id="saldo">400 </span> PichuCoins</h2>
+    </div>
+
+
+    <!-- ================= JANTARES ================= -->
+
+    <h3 class="categoria-menu">Jantares</h3>
+
+    <div class="menu-comidas">
+
+        <div class="item">
+
+            <img src="img/hamburguer.png">
+
+            <div class="conteudo">
+
+                <h3>Hambúrguer</h3>
+
+                <p>
+                    Hambúrguer artesanal com cheddar,
+                    bacon e cream cheese.
+                </p>
+
+                <span class="preco">200</span>
+
+               <button
+    class="escolher jantar-btn"
+    data-tipo="jantar"
+    data-nome="Hambúrguer"
+    data-preco="200">
+    Escolher
+</button>
+
+<div class="item">
+
+            <img src="img/frambacon.jfif">
+
+            <div class="conteudo">
+
+                <h3>Frambacon</h3>
+
+                <p>
+                    Preciso nem detalhaaar.
+                </p>
+
+                <span class="preco">200</span>
+
+                <button
+    class="escolher jantar-btn"
+    data-tipo="jantar"
+    data-nome="Frambacon"
+    data-preco="200">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+
+            <img src="img/pizza.jpg">
+
+            <div class="conteudo">
+
+                <h3>Pizza</h3>
+
+                <p>
+                    Escolha o sabor depois pelo WhatsApp.
+                </p>
+
+                <span class="preco">200</span>
+
+                <button
+    class="escolher jantar-btn"
+    data-tipo="jantar"
+    data-nome="Pizza"
+    data-preco="200">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+
+            <img src="img/esfirra.jpeg">
+
+            <div class="conteudo">
+
+                <h3>Esfirras</h3>
+
+                <p>
+                    Tradicionais, deliciosas e sempre bem-vindas.
+                </p>
+
+                <span class="preco">200</span>
+
+                <button
+    class="escolher jantar-btn"
+    data-tipo="jantar"
+    data-nome="Esfirras"
+    data-preco="200">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+
+            <img src="img/coxinha.png">
+
+            <div class="conteudo">
+
+                <h3>Coxinhas + Cheddar</h3>
+
+                <p>
+                    Muito cheddar. Muito mesmo.
+                </p>
+
+                <span class="preco">200</span>
+
+                <button
+    class="escolher jantar-btn"
+    data-tipo="jantar"
+    data-nome="Coxinhas + Cheddar"
+    data-preco="200">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= BEBIDAS ================= -->
+
+    <h3 class="categoria-menu"> Bebidas</h3>
+
+    <div class="menu-comidas">
+
+        <div class="item">
+
+            <img src="img/coca.png">
+
+            <div class="conteudo">
+
+                <h3>Coca-Cola Zero</h3>
+
+                <span class="preco">50</span>
+
+                <button
+    class="escolher bebida-btn"
+    data-tipo="bebida"
+    data-nome="Coca-Cola Zero"
+    data-preco="50">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+
+            <img src="img/schweppes.png">
+
+            <div class="conteudo">
+
+                <h3>Schweppes Citrus</h3>
+
+                <span class="preco">50</span>
+
+                <button
+    class="escolher bebida-btn"
+    data-tipo="bebida"
+    data-nome="Schweppes"
+    data-preco="50">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+
+            <img src="img/laranja.jpg">
+
+            <div class="conteudo">
+
+                <h3>Suco de Laranja</h3>
+
+                <span class="preco">50</span>
+
+                <button
+    class="escolher bebida-btn"
+    data-tipo="bebida"
+    data-nome="Suco de Laranja"
+    data-preco="50">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+
+            <img src="img/caja.jpg">
+
+            <div class="conteudo">
+
+                <h3>Suco de Cajá</h3>
+
+                <span class="preco">50</span>
+
+                <button
+    class="escolher bebida-btn"
+    data-tipo="bebida"
+    data-nome="Suco de Cajá"
+    data-preco="50">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= SOBREMESAS ================= -->
+
+    <h3 class="categoria-menu"> Sobremesas</h3>
+
+    <div class="menu-comidas">
+
+        <div class="item">
+
+            <img src="img/acai.jpg">
+
+            <div class="conteudo">
+
+                <h3>Açaí</h3>
+
+                <p>
+                    Nutella, banana, leite condensado e chocolate.
+                </p>
+
+                <span class="preco">150</span>
+
+                <button
+    class="escolher sobremesa-btn"
+    data-tipo="sobremesa"
+    data-nome="Açaí"
+    data-preco="150">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="item">
+
+            <img src="img/sorvete.jpg">
+
+            <div class="conteudo">
+
+                <h3>Sorvete</h3>
+
+                <p>
+                    Escolha o sabor no dia da sessão.
+                </p>
+
+                <span class="preco">150</span>
+
+                <button
+    class="escolher sobremesa-btn"
+    data-tipo="sobremesa"
+    data-nome="Sorvete"
+    data-preco="150">
+    Escolher
+</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= CORTESIA ================= -->
+
+    <div class="cortesia">
+
+        <img src="img/chocolate.png" style="width:130px;margin-bottom:20px;">
+
+        <h3>Chocolate</h3>
+
+        <span class="gratis">GRÁTIS</span>
+
+        <p>
+            Cortesia da Jaca's Store 
+        </p>
+
+    </div>
+
+</section>
+
+</section>
+
+
+
+<section id="pedido">
+
+    <div class="titulo">
+
+        <h2> Minha Sessão</h2>
+
+        <p>
+            Confira todas as escolhas para a nossa Sessão Especial.
+        </p>
+
+    </div>
+
+    <div class="ticket">
+
+        <div class="ticket-top">
+
+            <h3>CineTuxo VIP</h3>
+
+            <span>Sessão Especial • Sábado • 20:00</span>
+
+        </div>
+
+        <div class="ticket-info">
+
+            <p>
+                
+            </p>
+<p>
+    <strong>🎌 Anime</strong><br>
+    <span id="animeEscolhido">Aguardando escolha...</span>
+</p>
+            <p>
+                <strong>🎬 Filme</strong><br>
+                <span id="filmeEscolhido">__________</span>
+            </p>
+
+            <p>
+                <strong> Jantar</strong><br>
+                <span id="jantarEscolhido">__________</span>
+            </p>
+
+            <p>
+                <strong> Bebida</strong><br>
+                <span id="bebidaEscolhida">__________</span>
+            </p>
+
+            <p>
+                <strong> Sobremesa</strong><br>
+                <span id="sobremesaEscolhida">__________</span>
+            </p>
+
+        </div>
+
+        <div class="ticket-footer">
+
+            <p>
+
+                Seu ingresso VIP e suas PichuCoins serão entregues
+                pessoalmente no dia da sessão.
+
+            </p>
+
+            <button id="confirmar" class="botao">
+
+                🎟 Confirmar Sessão
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="voltar-index">
+
+    <a href="index.html" class="botao-voltar">
+
+        ⬅ Voltar
+
+    </a>
+
+</section>
+
+<footer>
+
+    <h3>
+
+        CineTuxo
+
+    </h3>
+
+    <p>
+
+        Transformando coincidências em amor desde 2025.
+
+    </p>
+
+    <br>
+
+    <a
+    class="contato-whatsapp"
+    href="https://wa.me/55SEUNUMERO"
+    target="_blank">
+
+    Qualquer dúvida, entre em contato
+
+</a>
+
+</footer>
+
+<script src="cine.js"></script>
+
+</body>
+
+</html>
